@@ -1,11 +1,16 @@
 **Tabla de Contenido**
 
-[TOCM]
+- [Despliegue](#despliegue)
+  - [Ambiente Local](#ambiente-local)
+  - [Kubernetes](#kubernetes)
+- [Diseño de la solución](#diseño-de-la-solución)
+  - [Diagrama de componentes](#diagrama-de-componentes)
+  - [Diagrama de Secuencias](#diagrama-de-secuencias)
+  - [Diagrama de clases](#diagrama-de-clases)
+- [Swagger Local](#swagger-local)
 
-[TOC]
-
-##Despliegue
-###Ambiente Local
+## Despliegue
+### Ambiente Local
 - Descargar Imagen del projecto de Docker Hub, [Link](https://hub.docker.com/r/dburitic/inventario-pt).
 
 ```docker
@@ -16,7 +21,8 @@ docker pull dburitic/inventario-pt:1.0.0
 ```docker
 docker run -d -p 8083:80 dburitic/inventario-pt:1.0.0
 ```
-###Kubernetes
+### Kubernetes
+Los archivos mecionados en esté apartado se encuentran en el directorio deployment.
 - Desplegar el archivo de configuración **deployment.yml**.
 
 ```bash
@@ -96,15 +102,15 @@ un vez este desplegado el servicio vamos a ejecutar el sigueinte comando para va
 ```docker
 kubectl get svc -o wide
 ```
-##Diseño de la solución
-###Diagrama de componentes
+## Diseño de la solución
+### Diagrama de componentes
 img/diagrama-componentes
-###Diagrama de Secuencias
+### Diagrama de Secuencias
 img/diagrama-secuencias
-###Clases
+### Diagrama de clases
 img/diagrama-secuencias
 
 
-##Swagger Local
+## Swagger Local
 - Para acceder al swuagger ejecute el **http://localhost/swagger-ui/index.html**
 
