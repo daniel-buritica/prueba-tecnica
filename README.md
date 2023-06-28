@@ -98,11 +98,12 @@ kubectl get svc -o wide
 ```
 ##Diseño de la solución
 ###Diagrama de componentes
-
+img/diagrama-componentes
 ###Diagrama de Secuencias
-
+img/diagrama-secuencias
 ###Clases
-###Arquitectura de la solución
+img/diagrama-secuencias
+
 
 ##Swagger Local
 - Para acceder al swuagger ejecute el **http://localhost/swagger-ui/index.html**
