@@ -1,0 +1,8 @@
+co\com\pruebatecnica\adapter\config\DBSecret$DBSecretBuilder.class
+co\com\pruebatecnica\adapter\Inventory.class
+co\com\pruebatecnica\adapter\helper\InventoryMapper.class
+co\com\pruebatecnica\adapter\config\DBSecret.class
+co\com\pruebatecnica\adapter\Inventory$InventoryBuilder.class
+co\com\pruebatecnica\adapter\InventoryAdapterImpl.class
+co\com\pruebatecnica\adapter\InventoryRepository.class
+co\com\pruebatecnica\adapter\config\JpaConfig.class

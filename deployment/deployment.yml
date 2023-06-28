@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inventario-pt-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      pod: inventario-pt-pod
+  template:
+    metadata:
+      labels:
+        app: inventario-pt-app
+        pod: inventario-pt-pod
+    spec:
+      containers:
+        - name: inventario-pt-container
+          image: dburitic/inventario-pt:1.0.0
+          resources:
+            requests:
+              memory: 300Mi
+              cpu: 400m
+            limits:
+              memory: 300Mi
+              cpu: 400m
+          ports:
+            - containerPort: 80

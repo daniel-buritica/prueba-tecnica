@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: co.com.pruebatecnica.usecase.InventoryUseCaseTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.992 s -- in co.com.pruebatecnica.usecase.InventoryUseCaseTest
