@@ -103,6 +103,7 @@ un vez este desplegado el servicio vamos a ejecutar el sigueinte comando para va
 kubectl get svc -o wide
 ```
 ## Diseño de la solución
+Los diagramas mencioandos en esté apartado se encuentran en el directorio img
 ### Diagrama de componentes
 img/diagrama-componentes
 ### Diagrama de Secuencias
